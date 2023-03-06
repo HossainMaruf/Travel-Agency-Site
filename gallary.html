@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive tour and travel agency website design tutorial</title>
+
+     
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="Hotel.html">home</a>
+        <a href="#book">book</a>
+        <a href="Packages.html">packages</a>
+        <a href="About.html">About Us</a>
+        <a href="gallary.html">gallery</a>
+       <!--- <a href="#review">review</a>-->
+        <a href="contract.html">contact</a>
+        <a href="login.html">login</a>
+
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends-->
+
+<!-- login from contrainer-->
+
+<div class="login-form-container" >
+
+
+    <i class="fas fa-times" id="form-close"></i>
+    
+    <form action="">
+
+
+       <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p> 
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>dicover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/saint-martin-bangladesh-aerial-view-4k.mp4"></span>
+        <span class="vid-btn" data-src="images/saint-martin-bangladesh-aerial-view-3.mp4"></span>
+        <span class="vid-btn" data-src="images/sundarbon-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/saint-martin-bangladesh-aerial-view-4k.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+    <div class="row">
+
+        <div class="image">
+            <img src="images/TT.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <a href="https://www.agoda.com/country/bangladesh.html?cid=1844104" class="btn">Book Now</a>
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+
+
+
+
+
+        
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/g-1.jpg" alt="">
+            <div class="content">
+                <h3>Pattaya,Thailand</h3>
+                <p>Pattaya is a city on Thailand’s eastern Gulf coast known for its beaches.</p>
+                <a href="https://www.gettyimages.com/photos/pattaya" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>Bali indhonesia</h3>
+                <p>Bali is an Indonesian island known for its forested volcanic mountains, iconic rice paddies, beaches and coral reefs. .</p>
+                <a href="https://unsplash.com/s/photos/bali" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-3.jpg" alt="">
+            <div class="content">
+                <h3>Acropolis, Athens</h3>
+                <p>The Acropolis of Athens is an ancient citadel located on a rocky outcrop above the city of Athens.</p>
+                <a href="https://www.shutterstock.com/search/acropolis+athens" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/sylhet-1.jpg" alt="">
+            <div class="content">
+                <h3>sylhet,Bangladesh</h3>
+                <p> Sylhet is a city in eastern Bangladesh, on the Surma River.Ratargul Swamp Forest ·Jaflong ·Bisnakandi·Lalakhal ·Malnicherra Tea garden.</p>
+                <a href="http://www.visitsylhet.com/places-to-visit" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/sundorban.jpg" alt="">
+            <div class="content">
+                <h3>sundorban,Khulna,Bangladesh</h3>
+                <p>Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, Brahmaputra and Meghna Rivers in Bangladesh.</p>
+                <a href="https://www.gettyimages.com/photos/sundarban" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/Cox's Bazar.jpg" alt="">
+            <div class="content">
+                <h3>Cox's Bazar,Bangladesh</h3>
+                <p>Cox's Bazar is a city, fishing port, tourism centre, in southeastern Bangladesh.</p>
+                <a href="https://www.alamy.com/stock-photo/coxs-bazar.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/st.martine.jpg" alt="">
+            <div class="content">
+                <h3>st. Martin's,Bangladesh</h3>
+                <p>St Martin's is a tropical cliché and the only coral island in Bangladesh.</p>
+                <a href="https://www.shutterstock.com/search/bangladesh+saint+martin+island" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>sajek valley,Bangladesh</h3>
+                <p> Sajek Valley is famous for its natural beauty and is also known as the Queen of Hills .</p>
+                <a href="https://www.shutterstock.com/search/sajek+valley" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/d1.jpg" alt="">
+            <div class="content">
+                <h3>Darjeeling,India</h3>
+                <p>The name Darjeeling means the "the land of the thunderbolt", derived from the Tibet word "Dorje".</p>
+                <a href="https://www.shutterstock.com/search/darjeeling" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/img1 (1).jpg" alt="">
+                    <h3>Efty Hridoy</h3>
+                    <p> Travel.com is one of the biggest and best travel and tour companies in Bangladesh. We had toured Dubai on a Cost Saver Group trip through travbond- flights, food, stays - everything included. Considering it was Company, even the Cost Saver tour was only moderately priced.
+
+                        But we have no complaints about the trip. The hotels were good, the meals were good, they even had snacks during journeys, our luggage was taken care of. We never had to pick our bags and the transport arrangements were also good. 
+                        
+                         it was a great experience.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/img1 (2).jpg" alt="">
+                    <h3>Mr. Raisul</h3>
+                    <p> Travel.com was a big help in locating the best flight for my upcoming trip as well as finding the best hotel for quarantine upon my return. The ability to see which hotels offered "free" cancellation was especially useful. Many thanks!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/img1 (3).jpg" alt="">
+                    <h3>Tanvir Ahmed</h3>
+                    <p>Turkish Airline website sucks. Couldn't change my flight online or using the app. Last minute had to try another set of domestic flights on Travel.com. no fuzz and with cheaper fares. Confirmed tickets within 15 mins from payment. So I am a happy customer</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/img1 (5).jpg" alt="">
+                    <h3>Zahid Hasan</h3>
+                    <p>thank's Travel.com. I was guided step by step, very easy and understandable, through the whole menu. I felt very secure, until the end, when the ticket was issued.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+
+
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3> 
+            <p>House # 17, Road # 36, Apt # 2A
+                Gulshan 2, Dhaka, Bangladesh.
+                HOTEL.COM.BD is Bangladesh’s No.1 hotel booking website, allowing you to get the best prices for more than 225,000 hotels around the world.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">Bangladesh</a>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> Md. Dulal Hossain </span> |Copyright © 1996–2021 Traveling.com™ all rights reserved! </h1>
+
+</section>
+
+
+
+
+
+
+
+  
+<!-- custom js file link-->
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> 
+
+<!-- custom js file link  -->
+<script src="script.js"> </script>
+</body>
+</html>
